@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContact.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+
+        <a href="index.html">Inicio</a>
+        <a href="#">Politica de seguridad</a>
+        <a href="aboutUs.html">Acerca de nosotros</a>
+        <a href="Contact.html">Contactame</a>
+        
+    </nav>
+
+
+    <header class="Logo-header">
+
+        <img src="/imagenes/Logo.jpeg" alt="logoheader" class="logoheader">
+        
+           
+        <img src="/imagenes/usuario.png" alt="Usuario" class="usuario">
+        <p class="login-signup">Hola usuario</p>
+        
+        <hr></hr>
+
+
+    </header>
+
+    <div class="conteiner">
+        
+        <div class="item">
+
+            <h1 class="texto">Contacto</h1><br>
+           
+            <form class="form" action="/procesar_formulario.php" method="post">
+                <label for="asunto">Asunto:</label>
+                <input  class="text" type="text" id="asunto" name="asunto" required><br><br>
+        
+                <label for="correo">Correo electrónico:</label>
+                <input class="email" type="email" id="correo" name="correo" required><br><br>
+        
+                <label for="mensaje">Mensaje:<br></label><br>
+                <textarea class="mensaje" id="mensaje" name="mensaje" rows="10" cols="65" required></textarea><br><br>
+        
+                <button class="enviar" type="submit">Enviar</button>
+            </form>
+
+        </div>
+
+
+    </div>
+    
+
+</body>
+</html>

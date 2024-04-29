@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+    font-size: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    /* /* background-color: #f2f2f2;  */
+  } 
+
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+
+  .navbar a {
+    text-decoration: none;
+  }
+
+  .Logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoheader {
+    height: auto;
+    max-width: 100px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  .conteiner{
+        
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        
+  }
+
+  .item{
+    font-size: 20px;
+    background-color: rgba(201, 255, 182, 1);
+    padding: 50px;
+    
+
+  }
+
+  .texto{
+
+    margin-left: 255px;
+    font-family: "Montserrat", sans-serif;
+
+  }
+
+  .enviar{
+
+    font-size: 22px;
+   margin-left: 330px;
+    border-radius: 10px;
+    background-color: tomato;
+  }
+
+  .form{
+
+    font-family: "Montserrat", sans-serif;
+
+  }
+
+  #asunto, #correo {
+    width: 300px;
+    height: 30px;
+}
+
+
+.text{
+
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.email{
+
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mensaje{
+
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.usuario {
+    width: 50px; 
+    height: auto; 
+    display: flex;
+    margin-left: 1250px;
+    
+  }
+
+  .login-signup {
+    margin-left: 10px; 
+    text-align: end;
+    display: flex;
+   
+  }
+  
+  

@@ -60,13 +60,14 @@ body{
 
   }
 
-  .SobreNosotros {
-    padding: 1px;
-    margin: 200px;
-    height: 30px;
-    width: 400px;
+  .article {
+
+    margin-left: 280px;
+    font-family: "Montserrat", sans-serif;
    
   }
+
+
 
   
   .caja-externa1 {
@@ -137,13 +138,24 @@ body{
 
   .parrafo{
 
-    text-align: left;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+    width: 800px;
 
 
   }
 
-
+  .foot{
+    background-color: green;
+    padding: 25px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 10;
+    width: 100%;
+  }
   
   

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Iniciar Sesión</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/019acaf8d0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styleAboutUs.css">
+</head>
+<body>
+    <nav class="navbar">
+
+        <a href="index.html">Inicio</a>
+        <a href="#">Politica de seguridad</a>
+        <a href="aboutUs.html">Acerca de nosotros</a>
+        <a href="Contact.html">Contactame</a>
+        
+    </nav>
+
+
+    <header class="Logo header">
+
+        <img src="/imagenes/Logo.jpeg" alt="logoheader" class="logoheader">
+
+        <hr>
+
+        <div class="links1">
+        <a href="#">LINK 1</a>
+        <a href="#">LINK 2</a>
+        <a href="#">LINK 3</a>
+
+        </div>
+
+        <div class="links2">
+
+        <a href="#">Set Rental Location</a>
+        <a href="#">Set Rental Date</a>
+        <a href="#">Pick Up</a>
+
+        </div>
+
+    </header>
+    <body>
+        <style>
+
+            .container {
+                max-width: 960px;
+            }
+        
+            .card {
+                margin-left: 0;
+            }
+        
+            .benefits {
+                background-color: #f8f9fa;
+                border: 1px solid #dee2e6;
+                padding: 20px;
+                border-radius: 5px;
+            }
+        </style>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <h5 class="card-header">Iniciar Sesión</h5>
+                        <div class="card-body">
+                            <form id="loginForm">
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">Nombre de usuario</label>
+                                    <input type="text" class="form-control" id="username" name="username" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Recordarme</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                                <p class="mt-3">¿No tiene una cuenta? <a href="register.html">Regístrese</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="benefits">
+                        <h4>Beneficios de nuestra aplicación</h4>
+                        <ul>
+                            <li>Acceso a una amplia variedad de herramientas.</li>
+                            <li>Ahorro de tiempo y esfuerzo.</li>
+                            <li>Flexibilidad de uso.</li>
+                            <li>Costos reducidos.</li>
+                            <li>Comentarios y valoraciones.</li>
+                            <li>Flexibilidad de uso.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+        </body>
+        </html>

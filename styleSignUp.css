@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+    font-size: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px; 
+  
+  } 
+
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+
+  .navbar a {
+    text-decoration: none;
+  }
+
+  .Logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoheader {
+    height: auto;
+    max-width: 100px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+
+  .login-signup {
+    margin-left: 10px; 
+    text-align: end;
+    display: flex;
+   
+  }
+
+  .logoheader {
+    height: auto;
+    max-width: 100px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  .links2{
+
+    font-size: 20px;
+    white-space: 15px;
+
+
+  }
+
+  .links1{
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 15px;
+    word-spacing: 15px;
+
+
+  }
+
+  .article {
+    margin-left: 550px;
+    text-align: center;
+    width: 800px;
+
+    }
+  
+
+
+  .texto {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+
+  .row{
+
+    background-color: tomato;
+    border-radius: 7px;
+
+  }
+
+  .foot{
+    background-color: green;
+    padding: 25px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 10;
+    width: 100%;
+  }
+
+  .form-label{
+
+    margin-left: 22px;
+
+
+  }
+
+
+.btn-primary {
+
+  margin-left: 30px;
+
+}
+
+.col-12 {
+
+  margin-left: 10px;
+
+}
+
+.col-md-6 {
+
+  margin-left: 10px;
+ 
+}
+
